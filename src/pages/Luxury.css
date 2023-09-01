@@ -1,0 +1,283 @@
+.luxury .carousel1 .text {
+  background-color: #332503;
+  position: relative;
+  top: -230px;
+  margin: 0 auto;
+  padding: 10px 0 30px;
+  width: 500px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.luxury .carousel1 .text h3 {
+  font-size: 40px;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  background: none;
+  position: relative;
+}
+
+.luxury .carousel1 .text p {
+  font-size: 20px !important;
+  font-family: Avenir;
+  color: #fff;
+}
+
+.luxury .carousel1 hr,
+.luxury .carousel1 h2,
+.luxury .carousel1 .container {
+  display: none;
+}
+
+.luxury .carousel1 {
+  padding: 0 !important;
+}
+
+.luxury .carousel {
+  height: 840px;
+  margin-top: 0 !important;
+}
+
+.luxury .carousel1 .carousel-indicators {
+  bottom: 145px;
+}
+
+.luxury .jewellery_watch img {
+  height: 700px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.luxury .jewellery_watch .text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -500px;
+  width: 100%;
+  height: 320px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.luxury .jewellery_watch .text h2{
+  font-family: Coldiac;
+  color:#fff;
+  font-size: 40px !important;
+  line-height: 70px;
+  text-align: center;
+}
+
+.luxury .jewellery_watch .text h2 span {
+  font-family: BabyHoe;
+  font-size: 40px !important;  
+  margin: 40px 0;
+  color: #fff;
+  text-transform: initial;
+}
+
+.luxury .jewellery_watch .text a button {
+  font-family: Coldiac;
+  border:2px solid #fff;
+  font-size: 20px !important;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 8px 20px;
+  color:#fff;
+}
+
+.luxury .carousel1 {
+  height: 700px;
+}
+
+.luxury .carousel1 img {
+  height: 700px;
+}
+
+.luxury .carousel1 h3 {
+  background: none;
+}
+
+.luxury .banner .banner-text {
+  position: absolute;
+  right: 0;
+}
+
+.luxury .banner .banner-text h1 {
+  text-transform: initial;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.luxury .banner .banner-text p {
+  color: #000;
+  font-weight: 600;
+}
+
+.luxury .culinary_adv {
+  background-color: rgba(121, 92, 54, 0.6);
+  width: 400px;
+  height: 320px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -500px;
+  text-align: center;
+}
+
+.luxury .culinary_adv h3 {
+  font-family: BabyHoe;
+  font-size: 50px;
+  margin: 40px 0;
+  color: #fff;
+}
+
+.luxury .culinary_adv h4 {
+  font-family: Coldiac;
+  font-size: 25px;
+  color: #fff;
+}
+
+.luxury .culinary_adv p {
+  font-family: Coldiac;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.luxury .culinary_adv a button {
+  font-family: Coldiac;
+  background-color: #fff;
+  font-size: 20px !important;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 8px 20px;
+}
+
+.luxury_card .card3 .card {
+  height: 350px;
+}
+
+.luxury_category .culinary_adv {
+  background-color: rgba(121, 92, 54, 0.6);
+  width: 340px;
+  height: 300px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  /* left: 0; */
+  right: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -500px;
+  text-align: center;
+}
+
+.luxury_category .culinary_adv h3 {
+  font-family: BabyHoe;
+  font-size: 55px;
+  margin: 40px 0;
+  color: #fff;
+}
+
+.luxury_category .culinary_adv h4 {
+  font-family: Coldiac;
+  font-size: 30px;
+  color: #fff;
+}
+
+.luxury_category .culinary_adv p {
+  font-family: Coldiac;
+  font-size: 15px !important;
+  text-align: right;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .luxury .carousel1 .text {
+    top: -150px;
+    width: 300px;
+    padding: 20px 0 20px;
+  }
+  .luxury .carousel1 .text h3 {
+    font-size: 25px;
+    height: fit-content;
+  }
+  .luxury .carousel1 .text p {
+    font-size: 15px !important;
+  }
+  .luxury .carousel {
+    height: 360px;
+  }
+  .luxury .carousel1 .carousel-indicators {
+    bottom: -40px;
+  }
+  .luxury .carousel1 img {
+    height: 500px;
+  }
+  .luxury .carousel1 {
+    height: 500px;
+  }
+  .luxury .jewellery_watch img {
+    height: 500px;
+    object-position: left;
+  }
+  .luxury .jewellery_watch .text{
+    margin-top:-400px
+  }
+  .luxury .jewellery_watch .text h2 {
+    font-size: 30px !important;
+    line-height: 50px;
+  }
+  .luxury .jewellery_watch .text h2 span {
+    font-size: 30px !important;
+  }
+  .luxury .jewellery_watch .text a button {
+    font-size: 16px !important;
+  }
+  .luxury .culinary_adv {
+    background-color: rgba(121, 92, 54, 0.6);
+    width: 280px;
+    height: 255px;
+    margin-top: -375px;
+  }
+  .luxury .culinary_adv a button {
+    font-size: 16px !important;
+  }
+  .luxury .banner img{
+   object-position: left;
+  }
+  
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

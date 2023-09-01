@@ -1,0 +1,44 @@
+.service_card label{
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    color:#595959;
+    font-weight: 700;
+    position: absolute;
+    left: -50px;
+    top:-30px;
+}
+
+.service_card .card{
+    border: none;
+    width:75%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.service_card img{
+    height: 150px;
+    object-fit:contain ;
+}
+
+.service_card p{
+    font-size: 17px !important;
+    line-height: 25px;
+    color:#000;
+    margin-left: 30px;
+    margin-top:50px;
+}
+
+
+.service_card hr{
+    border-top: 3px solid #d2ab66;
+    width: -webkit-fill-available;
+    margin: 35px 0 0 0px;
+    opacity: 1;
+    margin-left: auto;
+}
+
+.service_card h2{
+    color: #d2ab66;
+    margin-right: 20px;
+    white-space: nowrap;
+}

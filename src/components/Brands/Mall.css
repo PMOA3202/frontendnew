@@ -1,0 +1,177 @@
+.mall hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 40px 0 0 20px;
+  opacity: 1;
+}
+
+.mall {
+  /* background-color: #f9f7f2; */
+}
+
+.mall #tabs menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin: 40px auto 0;
+  padding-left: 0;
+  width:90%;
+}
+
+.mall #tabs button {
+  font-size: 18px !important;
+  color: #000;
+  display: flex;
+  font-family: Avenir;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  white-space: nowrap;
+  margin:0 0px;
+  justify-content: center;
+}
+
+.mall #tabs button:hover {
+  color: #ab7f16;
+}
+
+.mall #tabs button.active .dot {
+  display: block !important;
+}
+
+.mall #tab-content {
+  background-color: #fff;
+  padding: 50px 50px 0;
+}
+
+.mall .dot {
+  width: 11px;
+  height: 11px;
+  background-color: #ab7f16;
+  border-radius: 50%;
+  margin: 7px 10px 0 0;
+  display: none;
+}
+
+.mall h2 {
+  white-space: nowrap;
+  color: #dbb85c;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.mall .image-box {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 100%;
+  background: #221e1d;
+  height: 500px;
+}
+
+.mall img {
+  height: 430px !important;
+  object-fit: cover;
+  transition: transform 0.2s;
+  transform: scale(1);
+  margin-top: 20px;
+}
+
+.mall img:hover {
+  transform: scale(1.05);
+}
+
+.mall ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.modal-dialog{
+ max-width: 1200px ;
+}
+
+.modal-content img{
+  height:650px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .mall #tabs menu {
+    margin: 10px auto 10px;
+    display: block;
+    column-count: 3;
+    padding-left: 0;
+  }
+  .mall .dot {
+    width: 8px;
+    height: 7px;
+    margin: 6px 7px 0 0;
+  }
+  .mall #tabs button {
+    font-size: 10px !important;
+    padding: 0;
+    white-space: unset;
+    margin:0;
+  }
+  .mall #tab-content {
+    padding: 0px;
+  }
+  .mall .text {
+    padding: 15px 0px 0px;
+  }
+  .mall h2 {
+    font-size: 30px;
+  }
+  .mall h3 {
+    font-size: 20px !important;
+  }
+  .mall p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .mall .image-box{
+    height: 175px;
+  }
+  .mall .view-btn button {
+    font-size: 18px;
+    width: 145px;
+    height: 50px;
+    margin: 20px auto 0px;
+  }
+  .mall img {
+    height: 130px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+  .mall #tabs button {
+    font-size: 16px !important;
+    margin:0;
+  }
+  .mall .dot {
+    margin: 7px 8px 0 0;
+  }
+  .mall #tab-content {
+    padding: 0;
+  }
+  .mall #tabs menu {
+    margin: 40px auto;
+    padding: 0;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

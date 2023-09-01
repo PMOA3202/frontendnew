@@ -1,0 +1,66 @@
+.careers .button2 button {
+  margin-top: -90px;
+  position: relative;
+}
+
+.careers .banner h1 {
+  margin-top: -50px;
+}
+
+.career_life img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.career_life .text {
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.career_life .text h3 {
+  font-size: 30px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.career_life .text p {
+  margin-top: 20px;
+}
+
+.career_life hr,
+.career_do hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 70px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.career_life h2,
+.career_do h2 {
+  color: #d2ab66;
+  font-size: 55px;
+  /* font-weight: 600; */
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.career_do img{
+    height: 400px;
+    object-fit: cover;
+}
+
+.career_do p{
+    margin: 20px 0;
+    font-size: 18px !important;
+}
+
+.careers .join h4{
+    font-size: 35px;
+    color:#D2AB66;
+}
+
+.careers .join .button2 button {
+    margin-top: 30px !important;
+}

@@ -1,0 +1,16 @@
+.gift .gift-card .text{
+    border:1px solid #d2ab66;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gift .gift-card .text h3{
+    font-size: 25px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+
+.gift .gift-image img{
+    height: 700px;
+    object-fit: cover;
+}

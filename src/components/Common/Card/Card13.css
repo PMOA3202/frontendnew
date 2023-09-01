@@ -1,0 +1,30 @@
+.card13 .card {
+  border: none;
+}
+
+.card13 .card img {
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin: 30px 0;
+}
+
+.card13 .card h4 {
+  font-size: 28px;
+}
+
+.card13 label{
+    color:#777777;
+}
+
+.card13 span {
+  margin: -2px 18px;
+}
+
+.card13 label svg {
+  margin: -3px 10px 0 0;
+}
+
+.card13 p{
+    font-size: 18px !important;
+}

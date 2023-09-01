@@ -1,0 +1,15 @@
+.tc p{
+    font-size: 18px !important;
+    margin-top: 20px;
+}
+
+.tc ul li{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.tc ul li{
+    list-style-type: decimal !important;
+    margin-left: 50px;
+    padding-left: 10px;
+}

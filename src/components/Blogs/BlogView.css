@@ -1,0 +1,10 @@
+.blog_view_more button {
+  margin: 0 auto;
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+.blog_view_more button:hover {
+  background: none !important;
+}

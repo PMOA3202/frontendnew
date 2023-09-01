@@ -1,0 +1,64 @@
+.park_card img{
+    height:450px;
+    object-fit: cover;
+}
+
+.park_card .card{
+    border: none;
+}
+
+.park_card h3{
+    font-size: 25px;
+    color:#d2ab66;
+}
+
+.park_card h4{
+    font-size: 20px;
+    margin:20px 0;
+}
+
+.park_card p{
+    font-size: 16px !important;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.park_card button{
+    margin: 20px 0;
+    font-size: 17px !important;
+    height:40px !important;
+    width:150px !important;
+    color:#fff !important;
+}
+
+
+@media (max-width: 575.98px) {
+    .park_card img  {
+      height: 270px;
+    }
+    .park_card button {
+        margin: 15px 0;
+        font-size: 13px !important;
+        height: 35px !important;
+        width: 125px !important;
+    }
+    .park_card h4 {
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .park_card p {
+        font-size: 13px !important;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1439.98px) {
+  }

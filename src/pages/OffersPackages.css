@@ -1,0 +1,15 @@
+.offers_packages hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 0px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.offers_packages h2 {
+  color: #d2ab66;
+  font-size: 55px;
+  /* font-weight: 600; */
+  margin-right: 20px;
+  white-space: nowrap;
+}

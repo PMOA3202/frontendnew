@@ -1,0 +1,180 @@
+.tab_banner #tabs button {
+  padding: 0;
+  width: 100%;
+}
+
+.tab_banner #tabs menu img {
+  height: 560px;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+
+.tab_banner #tabs menu .overlay {
+  height: 560px;
+  width: 25%;
+  background-color: rgba(30, 30, 30, 0.8);
+  position: absolute;
+  top: 120px;
+  /* display: none; */
+}
+
+.tab_banner #tabs menu .text {
+  position: absolute;
+  /* background-color: #1e1e1e; */
+  border-bottom: 3px solid #ab7f16;
+  border-top: 3px solid #ab7f16;
+  top: 350px;
+  /* left:0; */
+  width: 15%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.tab_banner #tabs ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.tab_banner #tabs ul li {
+  list-style-type: none;
+}
+
+.tab_banner #tabs menu .text h1 {
+  font-size: 28px !important;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 15px;
+  z-index: 1;
+  letter-spacing: 2px;
+}
+
+.tab_banner #tabs menu .text .normal {
+  width: auto;
+  height: 140px;
+  position: absolute;
+  /* z-index:1; */
+}
+.tab_banner #tabs menu .text .action {
+  width: auto;
+  height: 150px;
+  position: absolute;
+  display: none;
+}
+
+.tab_banner #tabs button.active .overlay {
+  display: none;
+}
+
+.tab_banner #tabs button.active .normal {
+  display: none;
+}
+
+.tab_banner #tabs button.active .action {
+  display: block !important;
+}
+
+.tab_banner #tabs button.active .text {
+  /* border-color: #fff; */
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.8);
+  width:25%;
+}
+
+.tab_banner #tabs menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  margin: 0px;
+  padding-left: 0;
+}
+
+.tab_banner #tabs button {
+  font-size: 20px;
+  color: #949494;
+  display: flex;
+  font-family: Avenir;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+  justify-content: center;
+}
+
+.tab_banner #tabs button:hover {
+  color: #ab7f16;
+}
+
+.tab_banner #tabs button.active .dot {
+  display: block !important;
+}
+
+.tab_banner #tab-content {
+  background-color: #fff;
+  /* padding: 50px 0 0; */
+}
+
+.tab_banner .dot {
+  width: 12px;
+  height: 12px;
+  background-color: #ab7f16;
+  border-radius: 50%;
+  margin: 10px 10px 0 0;
+  display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .tab_banner #tabs menu img {
+    height: 250px;
+  }
+  .tab_banner #tabs menu .overlay {
+    display: none !important;
+  }
+  .tab_banner #tabs menu .text {
+    top: 460px;
+    width: 93%;
+    height: 55px;
+    position: unset;
+    margin-left: -96%;
+    margin-top: 55%;
+  }
+  .tab_banner #tabs menu .text h1 {
+    font-size: 18px !important;
+    width: 100%;
+  }
+  .tab_banner #tabs {
+    margin-top: 75px;
+    z-index: 1000;
+  }
+  .tab_banner #tabs button{
+    justify-content: unset;
+  }
+  .tab_banner #tabs menu .text .normal {
+    display: none !important;
+  }
+  .tab_banner #tabs menu .text .action {
+    display: none !important;
+  }
+  .tab_banner #tabs button.active .text{
+    width:100%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

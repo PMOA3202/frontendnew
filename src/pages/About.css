@@ -1,0 +1,27 @@
+.about-info .lease_info .row {
+  display: none;
+}
+
+.about .about-sect .reverse .row {
+  flex-direction: row-reverse;
+}
+
+.about .about-sect .reverse .text {
+  margin-left: 80px;
+}
+
+.about .about-sect button{
+    display: none;
+}
+
+.about .about-sect img{
+    height: 700px;
+}
+
+.about .about-sect .card5 .text{
+    height: 530px;
+}
+
+.about .carousel1 h3{
+    background: none;
+}

@@ -1,0 +1,152 @@
+.foodthopia {
+  height: 900px;
+}
+
+.foodthopia img {
+  height: 900px;
+  object-fit: cover;
+}
+
+.foodthopia h2 {
+  font-size: 45px !important;
+  position: relative;
+  bottom: 130px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1)
+  );
+  height: 130px;
+  padding-top: 40px;
+  font-weight: 600;
+}
+
+.dine_detail hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 55px 0 0 70px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.dine_detail h2 {
+  color: #d2ab66;
+  font-size: 55px;
+  /* font-weight: 600; */
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.dine_detail .form1 h2 {
+  white-space: normal;
+}
+
+.dine .help,
+.dine_detail .more,
+.dine_detail .brands_category {
+  padding-top: 0 !important;
+}
+
+.dine .more,
+.dine_detail .more {
+  padding-bottom: 0 !important;
+}
+
+.dine_detail .more .text h3 {
+  color: #fff !important;
+}
+
+.dine_detail .more .col-md-6 {
+  width: 33.3% !important;
+}
+
+.dine_detail .more img {
+  height: 450px;
+}
+
+.dine_detail .more .text {
+  height: 450px;
+  margin-top: -450px;
+}
+
+.dine_detail .more h2,
+.dine_detail .more hr {
+  display: none;
+}
+
+.dine .more .opt {
+  display: none;
+}
+
+.dine_detail .brands_category button {
+  display: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .foodthopia img {
+    height: 260px;
+  }
+  .foodthopia h2 {
+    font-size: 18px !important;
+    padding-top: 86px;
+  }
+  .foodthopia {
+    height: 250px;
+  }
+  .dine_detail h2 {
+    font-size: 35px;
+    width: 100%;
+    text-align: left;
+  }
+  .dine_detail .more .col-md-6 {
+    width: 100% !important;
+  }
+  .dine_detail .more img {
+    height: 300px;
+  }
+  .dine_detail .more .text {
+    height: 300px;
+    margin-top: -300px;
+  }
+  .dine .banner .banner-text {
+    margin-top: -200px;
+  }
+  .dine_detail .banner .banner-text {
+    margin-top: -200px;
+  }
+
+  .dine .banner-text h1,
+  .dine_detail .banner-text h1 {
+    line-height: 38px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+  .foodthopia h2 {
+    font-size: 35px !important;
+    padding-top: 60px;
+  }
+  .dine_detail h2 {
+    white-space: nowrap;
+  }
+  .dine_detail .form1 h2 {
+    white-space: unset !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

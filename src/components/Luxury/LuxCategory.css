@@ -1,0 +1,194 @@
+.lux_category .main_img {
+  height: 750px;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.lux_category .carousel1 .text {
+  display: none;
+}
+
+.lux_category .carousel1 img {
+  height: 700px;
+}
+
+.lux_category .carousel1 .carousel-indicators {
+  display: none;
+}
+
+.lux_category .card img {
+  width: 235px;
+  height: 130px;
+  object-fit: contain;
+}
+
+.lux_category .category-text {
+  position: absolute;
+  left: 40px;
+  margin-top: -650px;
+  justify-content: left;
+}
+
+.lux_category .row-reverse .category-text {
+  right: 50px;
+  left: unset;
+}
+
+.lux_category .row-reverse .category-text h3 {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.lux_category .row-reverse .category-text h3 span {
+  font-size: 60px;
+}
+
+.lux_category h3 {
+  background: none;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 50px 0 0 50px;
+  width: 340px;
+  height: 50px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  font-family: Coldiac;
+  line-height: 70px;
+}
+
+.lux_category .carousel1 .d-flex {
+  padding-top: 0 !important;
+}
+
+.lux_category h3 span {
+  font-family: BabyHoe;
+}
+
+.lux_category button a {
+  text-decoration: none;
+}
+
+.lux_category .row button {
+  font-size: 20px !important;
+  font-weight: 600;
+  color: #000;
+  font-family: Avenir;
+  margin: 10px auto;
+  display: flex;
+  border-bottom: 4px solid #dbb85c !important;
+  border: none;
+  background: none;
+}
+.lux_category .card3 {
+  padding: 0px 0 30px !important;
+}
+.lux_category .card3 .card{
+  margin: 0;
+}
+.lux_category .card3 .card h3 {
+  display: none;
+}
+.lux_category .card3 .text {
+  text-align: center;
+  position: absolute;
+  left: 30px;
+  bottom: 15px;
+}
+.lux_category .card3 svg {
+  /* display: none; */
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .luxury .banner .banner-text {
+    margin-top: -250px;
+  }
+  .lux_category .main_img {
+    height: 400px;
+  }
+  .lux_category .category-text {
+    margin-top: -480px;
+  }
+  .lux_category h3 {
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 18px !important;
+    line-height: 35px;
+  }
+  .lux_category .card {
+    height: 150px;
+    margin-bottom: 0px;
+    padding-top: 0;
+  }
+  .lux_category .card img {
+    height: 90px;
+    width: 130px;
+    object-fit: contain;
+  }
+  .lux_category button {
+    font-size: 17px;
+  }
+  .lux_category .view-btn button {
+    font-size: 18px;
+    width: 260px;
+    height: 55px;
+    margin: 25px auto 0;
+  }
+  .lux_category .row-reverse {
+    flex-direction: column-reverse;
+  }
+  .lux_category h2 {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+  .lux_category .card3 {
+    padding: 15px 0 0px !important;
+  }
+  .lux_category .carousel1 {
+    height: 500px;
+  }
+  .lux_category .carousel1 img {
+    height: 500px;
+  }
+  .lux_category .card3 .text {
+    left: 0;
+    bottom: 0px;
+    position: relative;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+  .lux_category .main_img {
+    height: 550px;
+  }
+  .card3 .card {
+    height: 240px;
+  }
+  .lux_category .card img {
+    width: 140px;
+    height: 65px;
+  }
+  .lux_category .card3 {
+    padding: 0px 0 10px !important;
+  }
+  .lux_category .category-text {
+    margin-top: -480px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

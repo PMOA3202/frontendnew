@@ -1,0 +1,70 @@
+.sign_up .navbar {
+  background-color: #000 !important;
+}
+
+.sign_up {
+  background-color: #161515;
+}
+
+.sign_up h2 {
+  font-size: 33px !important;
+  text-align: center;
+  color: #d2ab66;
+  margin-bottom: 30px !important;
+}
+
+.sign_up form {
+  padding: 200px 0 50px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.sign_up .form-label {
+  color: #fff;
+}
+
+.sign_up .form-control {
+  margin-bottom: 15px;
+}
+
+.sign_up button {
+  background-color: #d2ab66 !important;
+  margin: 0 auto;
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  color: #000;
+  font-family: "Playfair Display", serif;
+  font-size: 20px !important;
+}
+
+@media (max-width: 575.98px) {
+    .sign_up form {
+        padding: 105px 0 30px;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sign_up h2 {
+        font-size: 25px !important;
+    }
+    .sign_up button {
+        width: 120px;
+        font-size: 17px !important;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,17 @@
+.card11 .card img{
+    height: 400px;
+    object-fit: cover;
+    border-top-right-radius: 200px;
+}
+
+.card11 .card h3{
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    margin:20px 0 !important
+}
+
+.card11 .card p{
+    font-size: 20px !important;
+    color:#5B5B5B;
+    line-height: 30px;
+}

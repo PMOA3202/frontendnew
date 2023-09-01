@@ -1,0 +1,126 @@
+.movie_card .card {
+  border: none;
+  /* height: 600px; */
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.movie_card .card * {
+  box-sizing: border-box;
+  transition: all 0.45s ease;
+}
+
+.movie_card .card * {
+  box-sizing: border-box;
+  transition: all 0.45s ease;
+}
+
+.movie_card .card::before,
+.movie_card .card::after {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-top: 32px solid rgba(0, 0, 0, 0.5);
+  border-bottom: 32px solid rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  transition: all 0.3s ease;
+  z-index: 1;
+  opacity: 0;
+  transform: scaleY(2);
+}
+
+.movie_card .card img {
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.movie_card .card h4 {
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+  font-family: Avenir;
+  font-weight: 600;
+}
+
+.movie_card .text h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #d2ab66;
+  margin-bottom: 15px !important;
+}
+
+.movie_card .text p {
+  font-size: 14px !important;
+  font-weight: 600;
+}
+
+.movie_card .card .overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 445px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0;
+  align-items: end;
+  padding-bottom: 30px;
+  display: flex;
+  opacity: 0;
+  z-index: 2;
+  transition-delay: 0.1s;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.movie_card .card .overlay button {
+  font-size: 16px !important;
+  height: 40px !important;
+  width: 130px !important;
+  margin-top: 20px;
+}
+
+.movie_card .card:hover::before,
+.movie_card .card:hover::after {
+  transform: scale(1);
+  opacity: 0.5;
+}
+
+.movie_card .card:hover > img {
+  opacity: 0.7;
+}
+
+.movie_card .card:hover .overlay {
+  opacity: 1;
+}
+
+
+
+@media (max-width: 575.98px) {
+  .movie_card .card img {
+    height: 270px;
+  }
+  .movie_card .text h3{
+    font-size: 20px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+}

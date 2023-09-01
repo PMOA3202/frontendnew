@@ -1,0 +1,22 @@
+.card9 .card{
+    border: none;
+}
+
+.card9 .card img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.card9 .card .text{
+    /* height: 300px; */
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.card9 .card .text h3{
+    padding: 0 20px;
+    color: #fff;
+    font-family: Coldiac;
+}

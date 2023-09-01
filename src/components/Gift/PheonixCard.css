@@ -1,0 +1,14 @@
+.pheonix_card hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 0px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.pheonix_card h2 {
+  color: #d2ab66;
+  /* font-weight: 600; */
+  margin-right: 20px;
+  white-space: nowrap;
+}

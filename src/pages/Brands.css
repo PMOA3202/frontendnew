@@ -1,0 +1,129 @@
+.brands .help {
+  /* background-color: #f9f7f2; */
+}
+
+.brands .banner-text h1 {
+  margin-top:-20px
+}
+
+.brands .more .container{
+  padding: 0 60px
+}
+
+.brand_detail hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 20px;
+  opacity: 1;
+}
+
+.brand_detail h2 {
+  color: #d2ab66;
+  white-space: nowrap;
+  /* font-weight: 600; */
+}
+
+.brand_detail .form1 h2 {
+  white-space: normal;
+}
+
+.brands .more .opt {
+  display: none;
+}
+
+.brand_detail .brands_category {
+  padding-top: 0 !important;
+}
+
+.brand_detail .button1 {
+  display: none;
+}
+
+.brand_detail .banner {
+  height: 700px;
+}
+
+.brand_detail .banner img {
+  height: 700px !important;
+}
+
+.brand_detail .banner-text {
+  display: none;
+}
+.brand_detail .brands_category {
+  padding-bottom: 40px !important;
+  padding-top: 20px !important;
+}
+
+.brand_detail .card3 .card h3,
+.brand_detail .card3 .card h4 {
+  display: none !important;
+}
+
+.brand_detail .card3 .card img {
+  height: 180px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  transition: transform 0.2s;
+  transform: scale(1);
+}
+
+.brand_detail .card3 .card img:hover{
+  transform: scale(1.15);
+}
+
+.brand_detail .card3 .card {
+  height: 240px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .brands .banner-text h1 {
+    width: 100%;
+  }
+  .banner-text h1 {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .brand_detail h2 {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .brands .banner .banner-text {
+    margin-top: -230px;
+  }
+  .brands .banner-text h1 {
+    line-height: 40px;
+  }
+  .brands .more {
+    padding-top: 0 !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+  .brand_detail h2 {
+    white-space: nowrap;
+  }
+  .brand_detail .form1 h2 {
+    white-space: unset !important;
+  }
+  .brands .more .row {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

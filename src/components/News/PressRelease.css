@@ -1,0 +1,27 @@
+.press_release hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 0px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.press_release h2 {
+  color: #d2ab66;
+  font-size: 55px;
+  /* font-weight: 600; */
+  margin-right: 15px;
+  white-space: nowrap;
+}
+
+.press_release .owl-theme .owl-dots{
+    margin-top: 40px;
+}
+
+.press_release .owl-theme .owl-dots .owl-dot span {
+  /* background-color: #d2ab66; */
+}
+
+.press_release .owl-nav {
+  display: none;
+}

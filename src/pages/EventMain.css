@@ -1,0 +1,39 @@
+.event_main .event_card h2,
+.event_main .past_events h2,
+.event_details h2{
+    color: #dbb85c;
+    white-space: nowrap;
+}
+
+.event_main hr,
+.event_details hr {
+    border-top: 3px solid #d2ab66;
+    width: -webkit-fill-available;
+    margin: 35px 0 0 20px;
+    opacity: 1;
+  }
+
+  .event_details .event_card hr {
+    display: none;
+  }
+
+.event_details .form1 h2{
+    text-align: left;
+    white-space: initial;
+}
+
+.event_details .event_card h2{
+    display: none;
+}
+
+.event_details .event_card {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+    padding-bottom: 40px;
+}
+
+.event_main .past_events img{
+    height: 300px;
+    object-fit: cover;
+}
+

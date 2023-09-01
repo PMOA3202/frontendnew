@@ -1,0 +1,33 @@
+.faq hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 0px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.faq h2 {
+  color: #d2ab66;
+  /* font-weight: 600; */
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.faq .accordion .accordion-item{
+    border:none;
+    
+}
+
+.accordion-item .accordion-button{
+    background: none;
+    border-bottom: 2px solid #d2ab66;
+    padding: 25px 0;
+    font-family: Avenir;
+    font-size: 22px !important;
+    border-radius: 0 !important;
+}
+
+.accordion-item .accordion-button:focus{
+    box-shadow: none;
+}
+

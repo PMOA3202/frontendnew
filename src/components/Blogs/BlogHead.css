@@ -1,0 +1,41 @@
+.blog_head img {
+  height: 500px;
+  object-fit: cover;
+  margin: 30px 0;
+}
+
+.blog_head label {
+  color: #777777;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.blog_head span {
+  margin: 0px 18px;
+}
+
+.blog_head label svg {
+  margin: -3px 10px 0 0;
+}
+
+.blog_head p {
+  font-size: 20px !important;
+  margin: 30px 0;
+  line-height: 35px;
+}
+
+.blog_more hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 0px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.blog_more h2 {
+  color: #d2ab66;
+  font-size: 55px;
+  /* font-weight: 600; */
+  margin-right: 15px;
+  white-space: nowrap;
+}

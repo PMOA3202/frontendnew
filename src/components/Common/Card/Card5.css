@@ -1,0 +1,73 @@
+.card5 .text {
+  position: relative;
+  margin-left: -100px;
+  width: 550px;
+  padding: 40px 50px;
+  text-align: center;
+  box-shadow: 0 4px 20px 0px #d2ab66;
+  height: 390px;
+  background-color: #fff;
+  margin-top: 80px;
+}
+
+.card5 img {
+  height: 540px;
+  object-fit: cover;
+}
+
+.card5 .text h2 {
+  font-size: 30px !important;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+
+.card5 .text p {
+  font-size: 20px !important;
+  line-height: 30px;
+  margin: 20px 0 20px !important;
+}
+
+.card5 .text .button2 button {
+  font-size: 18px !important;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .card5 .text {
+    margin-left: 0px;
+    width: 100%;
+    padding: 20px;
+    height: 330px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .card5 .text h2 {
+    font-size: 30px;
+  }
+  .card5 .text p {
+    font-size: 16px !important;
+    line-height: 25px;
+    margin: 10px 0 25px;
+  }
+  .card5 img {
+    height: 300px;
+  }
+  .card5 .text .button2 button {
+    font-size: 15px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

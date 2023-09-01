@@ -1,0 +1,35 @@
+.about_card img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.about_card .text{
+    border: none !important;
+}
+
+.about_card .text {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.about_card .text hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 0px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.about_card .text h2 {
+  color: #d2ab66;
+  /* font-weight: 600; */
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.about_card .text p {
+    margin:20px 0 !important;
+    text-align: left;
+}

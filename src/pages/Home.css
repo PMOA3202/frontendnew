@@ -1,0 +1,149 @@
+@font-face {
+  font-family: BabyHoe;
+  src: url(../assets/Babyhome.ttf);
+}
+
+@font-face {
+  font-family: Coldiac;
+  src: url(../assets/Coldiac.ttf);
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(../assets/AvenirNext.otf);
+}
+
+.main-pad {
+  padding: 0 100px !important;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+button {
+  background-color: transparent;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0 !important;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+
+p {
+  font-family: Avenir;
+}
+
+h1 {
+  font-size: 50px !important;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px !important;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 22px !important;
+  margin-bottom: 0 !important;
+}
+
+button {
+  font-size: 25px !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  
+  .banner-text h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  video {
+    height: 75vh !important;
+  }
+  .banner-text {
+    margin-top: -340px;
+  }
+  .banner-text p {
+    font-size: 16px;
+  }
+  .social-media {
+    height: 70px;
+  }
+  .social-media a {
+    font-size: 23px;
+    padding: 0 5px;
+  }
+  .overlay {
+    height: 75vh;
+  }
+  hr {
+    display: none;
+  }
+  .footer .subscribe {
+    display: grid !important;
+  }
+  .main-pad {
+    padding: 0 20px !important;
+  }
+  .main-pad .container-fluid{
+    padding: 0;
+  }
+  h1{
+    font-size: 30px !important;
+    white-space: unset !important;
+  }
+  h2{
+    font-size: 27px !important;
+    white-space: unset !important;
+  }
+  h3{
+    font-size: 22px !important;
+  }
+  button{
+    font-size: 16px !important;
+  }
+  p{
+    font-size: 14px !important;
+  }
+ 
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+  h1 {
+    font-size: 40px !important;
+  }
+  h2 {
+    font-size: 40px !important;
+  }
+  p {
+    font-size: 18px !important;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

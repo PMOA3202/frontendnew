@@ -1,0 +1,31 @@
+.lease_info hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 0px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.lease_info h2 {
+  color: #d2ab66;
+  /* font-weight: 600; */
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.lease_info p{
+    font-size: 18px !important;
+    line-height: 28px;
+}
+
+.lease_info .row{
+    border:3px solid #d2ab66;
+    border-radius: 20px;
+    width:90%;
+    margin: 70px auto 0;
+    padding: 50px;
+}
+
+.lease_info h3{
+    margin-bottom: 10px !important;
+}

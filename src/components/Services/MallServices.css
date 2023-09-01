@@ -1,0 +1,41 @@
+.mall_services .card img{
+    height: 60px;
+    object-fit: contain;
+}
+
+.mall_services .card h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.mall_services .nav-pills .nav-link{
+    font-size: 25px;
+    background: none;
+    font-family: "Playfair Display", serif;
+    color:#000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.mall_services .nav-pills .nav-link.active{
+    color: #d2ab66;
+}
+
+.mall_services #left-tabs-example hr{
+    border-top: 2px dotted #000;
+    opacity: 1;
+}
+
+.mall_services .main-pad hr{
+    border-top: 3px solid #d2ab66;
+    width: -webkit-fill-available;
+    margin: 35px 0 0 0px;
+    opacity: 1;
+    margin-left: auto;
+}
+
+.mall_services h2{
+    color: #d2ab66;
+    margin-right: 20px;
+    white-space: nowrap;
+}

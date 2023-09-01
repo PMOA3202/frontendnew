@@ -1,0 +1,81 @@
+.card6 .card {
+  height: 530px;
+  border: 1px solid #AB7F16;
+  border-radius: 0;
+}
+
+.card6 .card img {
+  height: 380px;
+  object-fit: cover;
+}
+
+.card6 .card .icons {
+  display: flex;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+
+.card6 .card .icons svg{
+    background-color: #fff;
+    border-radius: 50%;
+    padding:5px;
+    width:40px;
+    height: 40px;
+    border: 1px solid #AB7F16;
+}
+
+.card6 .card svg{
+    color: #AB7F16;
+    font-size: 20px;
+}
+
+.card6 .card .text {
+  padding: 20px 25px 30px;
+ text-align: center;
+}
+
+.card6 .card .text h3 {
+  font-size: 24px;
+  color: #141414;
+  font-weight: 700;
+}
+
+.card6 .card .text p {
+  font-size: 16px !important;
+  color: #272727;
+  margin:10px 0 !important;
+}
+
+.card6 .card .text small {
+  font-size: 14px;
+  color: #878787;
+  margin-left: 5px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .card6 .card {
+    height: 430px;
+  }
+  .card6 .card img {
+    height: 380px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,110 @@
+.form1{
+    background-color: #22242A;
+}
+
+.form1 h2{
+    color:#D2AB66;
+    font-size: 40px !important;
+    padding-right: 40px;
+    text-transform: initial;
+}
+
+.form1 p{
+    font-size: 20px !important;
+    color:#D2AB66;
+    margin-top:10px;
+}
+
+.form1 input{
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    width: 100%;
+    border-radius: 0;
+    border: 1px solid #D2AB66;
+}
+
+.form1 input::placeholder{
+    font-family: Avenir;
+    font-size:16px;
+}
+
+.form1 textarea {
+    padding: 20px;
+    border-radius: 0;
+    border: none;
+    font-weight: 600;
+}
+/* 
+.form1 .main-pad{
+    width: 100% !important;
+} */
+
+.form1 a{
+    text-align: center;
+}
+
+.form1 .submit_btn{
+    width: 35%;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: #D2AB66;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.form1 .main-pad{
+    width:75%;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .form1 h2 {
+        font-size: 25px !important;
+        padding-right: 0;
+    }
+    .form1 p {
+        font-size: 15px !important;
+    }
+    .form1 input{
+        padding: 10px;
+    }
+    .form1 input::placeholder{
+        font-size: 13px;
+    }
+    .form1 textarea{
+        font-size: 13px;
+        padding: 10px;
+    }
+    .form1 .submit_btn {
+        height: 35px;
+        font-size: 15px;
+        padding: 0;
+    }
+    .form1 .main-pad{
+        padding: 0 !important;
+        width:90%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+    .form1 .submit_btn {
+        width: 45%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

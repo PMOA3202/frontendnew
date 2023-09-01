@@ -1,0 +1,38 @@
+.corporate_enquiry img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.corporate_enquiry hr {
+  border-top: 3px solid #d2ab66;
+  width: -webkit-fill-available;
+  margin: 35px 0 0 0px;
+  opacity: 1;
+  margin-left: auto;
+}
+
+.corporate_enquiry h2 {
+  color: #d2ab66;
+  /* font-weight: 600; */
+  margin-right: 20px;
+  white-space: nowrap;
+}
+
+.corporate_enquiry .form{
+    width: 75%;
+}
+
+.corporate_enquiry .form label{
+    font-size: 18px;
+}
+
+.corporate_enquiry .form input{
+    border:none;
+    border-bottom: 2px solid #d2ab66;
+    margin-bottom: 30px;
+}
+
+.corporate_enquiry .button2 button{
+    margin:unset;
+    color:#fff !important;
+}

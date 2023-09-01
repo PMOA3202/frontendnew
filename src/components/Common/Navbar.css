@@ -1,0 +1,158 @@
+@font-face {
+  font-family: Avenir;
+  src: url(../../assets/AvenirNext.otf);
+}
+
+.navbar {
+  /* background-color: rgba(0,0,0,0.4) !important; */
+  /* background-color: #f4f1e7; */
+  width: 100%;
+  height: 160px;
+  z-index: 100;
+}
+
+
+.navbar .top #basic-nav-dropdown {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 20px;
+  height: 36px;
+  margin-top: 20px;
+  border: none;
+  text-align: center;
+  font-size: 14px;
+  color:#000 !important
+}
+
+.navbar-expand .navbar-nav .dropdown-menu {
+  position: absolute;
+  top: 60px;
+  width: 250px;
+  left: 20px;
+  border: none;
+  padding-top: 20px;
+}
+
+.navbar-expand .navbar-nav .dropdown-menu a {
+  margin-bottom: 20px;
+}
+
+.navbar .navbar-brand {
+  z-index: 1;
+}
+.navbar .navbar-expand-lg .navbar-collapse {
+  z-index: 1;
+}
+
+.navbar-nav {
+  justify-content: space-between;
+}
+
+.navbar .logo img {
+  height: 80px !important;
+}
+
+.navbar .navbar-brand img {
+  width: 245px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.navbar .top .nav-link {
+  margin-top: 20px;
+}
+
+.navbar .top svg {
+  font-size: 25px;
+  color: #fff;
+  margin-top: -3px;
+}
+.navbar .nav-link {
+  color: #fff !important;
+  font-size: 15px;
+  margin: 0 20px;
+  font-family: Avenir;
+  /* font-weight: 700 !important; */
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+.navbar .bottom .nav-link:hover {
+  color: #c7982e !important;
+}
+
+.navbar .social-media a {
+  font-size: 25px;
+  color: #fff;
+  margin: 0px 15px 0 0px;
+}
+
+.navbar .search-wish-bag a {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #fff;
+  top: -7px;
+  position: relative;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .sc-JrDLc.toggled .sc-JrDLc {
+    display: none !important;
+  }
+  .sc-JrDLc {
+    position: absolute !important;
+    right: 0 !important;
+    height: 900px !important;
+  }
+  .sc-JrDLc.toggled {
+    right: 0 !important;
+    position: absolute !important;
+    background-color: transparent !important;
+    height: 50px !important;
+  }
+  .logo img {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    object-fit: contain;
+    z-index: 10;
+    padding-left: 20px;
+  }
+  .head-text img {
+    width: 120px;
+  }
+  .navbar-mobile {
+    position: fixed;
+    top: 0;
+    background-color: #000;
+    z-index: 1001;
+    width: 100%;
+    height: 80px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+  .navbar .nav-link {
+    font-size: 15px;
+    margin: 0 3px;
+    letter-spacing: 0px;
+  }
+  .navbar .social-media a {
+    font-size: 20px;
+    margin: 0px 5px 0 0px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

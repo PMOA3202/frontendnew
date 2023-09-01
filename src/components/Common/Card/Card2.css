@@ -1,0 +1,69 @@
+.card2 .card {
+  border: none;
+}
+
+.card2 .text {
+  position: absolute;
+  bottom: 0;
+  padding: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card2 img{
+  height: 600px;
+  object-fit: cover;
+}
+
+.card2 .text h3 {
+  font-size: 20px;
+  font-family: Avenir;
+  color: #fff;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.card2 .text p {
+  font-size: 20px !important;
+  font-family: Avenir;
+  color: #fff;
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+@media (max-width: 575.98px) {
+  .card2 img {
+    height: 400px;
+  }
+  .card2 .text p{
+    font-size: 14px !important;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1439.98px) {
+  .card2 .text h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .card2 .text p {
+    font-size: 14px !important;
+  }
+  .card2 .text{
+    padding: 15px;
+  }
+  .card2 img {
+    height: 450px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
